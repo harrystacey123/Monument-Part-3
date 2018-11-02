@@ -1,0 +1,150 @@
+.nav1 {
+    display: flex;
+    justify-content: center;
+}
+
+.ul1 {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+}
+
+nav ul li {
+    padding: 10px 100px;
+    list-style-type: none;
+    color: #87A5B5;
+    font-family: Lato, sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: Lato, sans-serif;
+    bottom: 210px;
+    z-index: 2;
+    color: white;
+    letter-spacing: 0.5em;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.mountain {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+h2 {
+    font-family: Lato, sans-serif;
+    color: #61717A;
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 0px 10px 71.2px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+h3, h4 {
+    font-family: Lato, sans-serif;
+    color: #61717A;
+    font-size: 30px;
+    padding-left: 71.2px;
+    font-weight: 700;
+}
+
+.desert {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+p {
+    font-family: Lato, sans-serif;
+    color: #61717A;
+    padding: 10px 0px 0px 71.2px ;
+    font-size: 19px;
+    max-width: 90%;
+    font-weight: 700;
+    line-height: 30px;
+
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.people {
+    display: block;
+    margin-left: 71.2px;
+    width: 500px;
+}
+
+.issues {
+    color: #87A5B5;
+    font-family: Lato, sans-serif;
+    padding-left: 85px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+
+.bullets::before {
+    content: "\2022";
+    color: #61717A;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
+
+.recent {
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: #C5F6F7;
+    padding-top: 90px;
+    padding-bottom: 0px
+}
+
+hr {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-top: 2px solid #61717A;
+    border-left: hidden;
+    border-bottom: hidden;
+    position: relative;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0px;
+    position: relative;
+    bottom: 30px;
+}
+
+.facebook {
+    padding: 20px;
+}

@@ -1,6 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+header {
+    background-image: url(/Users/harrystacey/Desktop/WDI/monument-mockup/pt-1/starter-code/images/blog_header_bg.jpg);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+}
+
+
+
+.ul1 header {
+    display: flex;
+    justify-content: center;
+}
+
 .nav1 {
     display: flex;
     justify-content: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .ul1 {
@@ -10,11 +31,11 @@
 }
 
 nav ul li {
-    padding: 10px 100px;
+    padding: 10px 50px;
     list-style-type: none;
     color: #87A5B5;
-    font-family: Lato, sans-serif;
-    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     font-size: 22px;
 }
 
@@ -22,53 +43,45 @@ h1 {
     display: flex;
     justify-content: center;
     position: relative;
-    font-family: Lato, sans-serif;
-    bottom: 210px;
+    font-family: 'Raleway', sans-serif;
+    bottom: -110px;
     z-index: 2;
     color: white;
     letter-spacing: 0.5em;
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
-.mountain {
+/* .mountain {
     max-width: 100%;
     display: flex;
     justify-content: center;
     z-index: 1;
-}
+} */
 
 h2 {
-    font-family: Lato, sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #61717A;
     display: flex;
     align-items: flex-end;
-    padding: 0px 0px 10px 71.2px;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 25px;
 }
 
 h3, h4 {
-    font-family: Lato, sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #61717A;
     font-size: 30px;
-    padding-left: 71.2px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
-.desert {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-}
 
-p {
+
+.first {
     font-family: Lato, sans-serif;
     color: #61717A;
-    padding: 10px 0px 0px 71.2px ;
+    /* padding: 10px 0px 0px 71.2px ; */
     font-size: 19px;
-    max-width: 90%;
     font-weight: 700;
     line-height: 30px;
 
@@ -80,16 +93,16 @@ body {
     flex-direction: column;
 }
 
-.people {
+/* .people {
     display: block;
     margin-left: 71.2px;
-    width: 500px;
-}
+    width: 40%;
+} */
 
 .issues {
     color: #87A5B5;
     font-family: Lato, sans-serif;
-    padding-left: 85px;
+    /* padding-left: 85px; */
     font-size: 22px;
     font-weight: 700;
     line-height: 40px;
@@ -103,6 +116,52 @@ body {
     display: inline-block; 
     width: 1em; 
     margin-left: -1em; 
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    
+}
+
+.desert {
+    width: 100%;
+    height: 100%;
+}
+
+aside {
+    width: 25vw;
+    display: inline-block;
+    padding-top: 90px;
+    padding-right: 25px;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+}
+
+article{
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    /* height: auto; */
+}
+
+.sidebar {
+    font-family: Lato, sans-serif;
+    color: #61717A;
+    font-weight: 400;
+    font-size: 18px;
+    /* width: 50vw; */
+}
+
+.people {
+    width: 23vw;
+    padding-top: 10px;
 }
 
 .recent {
@@ -128,6 +187,10 @@ hr {
 .copyright {
     display: flex;
     justify-content: center;
+    font-family: Lato, sans-serif;
+    color: #61717A;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .media {
@@ -148,3 +211,41 @@ hr {
 .facebook {
     padding: 20px;
 }
+
+.button1 {
+    background-color: transparent;
+    width: 10vw;
+    border: solid 2px black;
+    margin-left: 2vw;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    border-style: none;
+    margin-bottom: 10vh;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+:-ms-input-placeholder {  
+    text-align: center; 
+}
+
+.email {
+    width: 20vw;
+}
+
+.email, .button1 {
+    height: 5vh;
+}
+
+.button1:hover {
+    background-color: #44535D;
+    transition:all .2s linear;
+  }
